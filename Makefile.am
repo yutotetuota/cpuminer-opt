@@ -119,6 +119,9 @@ cpuminer_SOURCES = \
   algo/lyra2/lyra2rev2-gate.c \
   algo/lyra2/lyra2rev2.c \
   algo/lyra2/lyra2rev2-4way.c \
+  algo/lyra2/lyra2revc0ban-gate.c \
+  algo/lyra2/lyra2revc0ban.c \
+  algo/lyra2/lyra2revc0ban-4way.c \
   algo/lyra2/lyra2re.c \
   algo/lyra2/lyra2z-gate.c \
   algo/lyra2/lyra2z.c \
