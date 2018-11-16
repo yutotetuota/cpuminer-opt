@@ -190,6 +190,7 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
      case ALGO_LYRA2H:       register_lyra2h_algo       ( gate ); break;
      case ALGO_LYRA2RE:      register_lyra2re_algo      ( gate ); break;
      case ALGO_LYRA2REV2:    register_lyra2rev2_algo    ( gate ); break;
+     case ALGO_LYRA2REVc0ban: register_lyra2rev2c0ban_algo ( gate ); break;
      case ALGO_LYRA2Z:       register_lyra2z_algo       ( gate ); break;
      case ALGO_LYRA2Z330:    register_lyra2z330_algo    ( gate ); break;
      case ALGO_M7M:          register_m7m_algo          ( gate ); break;
@@ -310,6 +311,7 @@ const char* const algo_alias_map[][2] =
   { "jane",              "scryptjane"   }, 
   { "lyra2",             "lyra2re"      },
   { "lyra2v2",           "lyra2rev2"    },
+  { "lyra2vc0ban",       "lyra2revc0ban"},
   { "lyra2zoin",         "lyra2z330"    },
   { "myrgr",             "myr-gr"       },
   { "myriad",            "myr-gr"       },

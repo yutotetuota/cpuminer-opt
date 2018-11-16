@@ -517,6 +517,7 @@ enum algos {
         ALGO_LYRA2H,
         ALGO_LYRA2RE,       
         ALGO_LYRA2REV2,   
+        ALGO_LYRA2REVC0BAN,	
         ALGO_LYRA2Z,
         ALGO_LYRA2Z330,
         ALGO_M7M,
@@ -599,6 +600,7 @@ static const char* const algo_names[] = {
         "lyra2h",
         "lyra2re",
         "lyra2rev2",
+        "lyra2revc0ban",
         "lyra2z",
         "lyra2z330",
         "m7m",
@@ -739,6 +741,7 @@ Options:\n\
                           lyra2h        Hppcoin\n\
                           lyra2re       lyra2\n\
                           lyra2rev2     lyrav2, Vertcoin\n\
+                          lyra2revc0ban lyravc0ban, c0ban\n\
                           lyra2z        Zcoin (XZC)\n\
                           lyra2z330     Lyra2 330 rows, Zoin (ZOI)\n\
                           m7m           Magi (XMG)\n\
